@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionManifest Version="7.0" ExtensionBundleId="com.henrikstabell.googlephotos" ExtensionBundleVersion="1.0.2"
+		ExtensionBundleName="Google Photos" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ExtensionList>
+		<Extension Id="com.henrikstabell.googlephotos" Version="1.0.2" />
+	</ExtensionList>
+	<ExecutionEnvironment>
+		<HostList>
+            <!-- Uncomment Host tags according to the apps you want your panel to support -->
+            <!-- Photoshop -->
+
+            <Host Name="PHXS" Version="[15.0,17.9]" />
+            <Host Name="PHSP" Version="[15.0,17.9]" />
+
+		</HostList>
+		<LocaleList>
+			<Locale Code="All" />
+		</LocaleList>
+		<RequiredRuntimeList>
+			<RequiredRuntime Name="CSXS" Version="7.0" />
+		</RequiredRuntimeList>
+	</ExecutionEnvironment>
+	<DispatchInfoList>
+		<Extension Id="com.henrikstabell.googlephotos">
+			<DispatchInfo >
+				<Resources>
+				<MainPath>./index.html</MainPath>
+				<ScriptPath>./jsx/hostscript.jsx</ScriptPath>
+				</Resources>
+				<Lifecycle>
+					<AutoVisible>true</AutoVisible>
+				</Lifecycle>
+				<UI>
+					<Type>Panel</Type>
+					<Menu>Google Photos</Menu>
+					<Geometry>
+						<Size>
+							<Height>350</Height>
+							<Width>350</Width>
+						</Size>
+                           <MinSize>
+                            <Height>300</Height>
+                            <Width>300</Width>
+                        </MinSize>
+                        <MaxSize>
+                            <Height>1000</Height>
+                            <Width>500</Width>
+                        </MaxSize>
+                        
+					</Geometry>
+					<Icons>
+						<Icon Type="Normal">./icons/IconLight.png</Icon>
+						<Icon Type="RollOver">./icons/IconLight.png</Icon>
+						<Icon Type="DarkNormal">./icons/IconDark.png</Icon>
+						<Icon Type="DarkRollOver">./icons/IconDark.png</Icon>
+					</Icons>					
+				</UI>
+			</DispatchInfo>
+		</Extension>
+	</DispatchInfoList>
+</ExtensionManifest>
