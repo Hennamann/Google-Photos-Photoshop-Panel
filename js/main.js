@@ -17,7 +17,7 @@ var gExtensionId = "com.henrikstabell.googlephotos";
 
     Persistent(true); //persistent to prevent extension from unloading
 
-function onLoaded()
+    function onLoaded()
     {
         window.location.href = "https://photos.google.com/";
     }

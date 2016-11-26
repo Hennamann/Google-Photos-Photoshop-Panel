@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ExtensionManifest Version="7.0" ExtensionBundleId="com.henrikstabell.googlephotos" ExtensionBundleVersion="1.0.3"
+<ExtensionManifest Version="7.0" ExtensionBundleId="com.henrikstabell.googlephotos" ExtensionBundleVersion="1.0.4"
 		ExtensionBundleName="Google Photos" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<ExtensionList>
-		<Extension Id="com.henrikstabell.googlephotos" Version="1.0.3" />
+		<Extension Id="com.henrikstabell.googlephotos" Version="1.0.4" />
 	</ExtensionList>
 	<ExecutionEnvironment>
 		<HostList>
+            
             <!-- Uncomment Host tags according to the apps you want your panel to support -->
             <!-- Photoshop -->
-
-            <Host Name="PHXS" Version="[15.0,17.9]" />
-            <Host Name="PHSP" Version="[15.0,17.9]" />
+            <Host Name="PHXS" Version="[15.0,18.9]" />
+            <Host Name="PHSP" Version="[15.0,18.9]" />
 
 		</HostList>
 		<LocaleList>
