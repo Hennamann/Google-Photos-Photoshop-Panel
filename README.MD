@@ -5,8 +5,6 @@ While it does support drag and drop functionality (for uploading images) it does
 I might add support for this in the future as well as making it possible to open images from Google Photos in Photoshop from the extension.
 
 ## Downloads
-Downloads are for the moment located here on Github: https://github.com/Hennamann/Google-Photos-Photoshop-Panel/releases and on my personal website: http://www.henrikstabell.com/.
-The extension has been submitted to the Adobe Add-Ons store but it will take a few weeks before i get a reply on wether the extension is accepted or not.
-
+Downloads are located here on Github: https://github.com/Hennamann/Google-Photos-Photoshop-Panel/releases and on the Adobe Add-ons Store: https://creative.adobe.com/addons/products/16095.
 
 Feel free to suggest ideas and commit pull requests with improvements and new features!
