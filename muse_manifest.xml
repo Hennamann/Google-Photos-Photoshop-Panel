@@ -1,8 +1,8 @@
-<manifest alg="2" build="2017.0.0.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="photospanel.henrikstabell.com" resolutions="1x" timestamp="1480237036266">
+<manifest alg="2" build="2017.0.0.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="photospanel.henrikstabell.com" resolutions="1x" timestamp="1480237335425">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
     <file name="master_a-master.css" crc="413948166" ref="index"/>
-    <file name="index.css" crc="3771097692" ref="index"/>
+    <file name="index.css" crc="493487839" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -34,10 +34,8 @@
     <file name="screenshot2.jpg" crc="456232312" seo="true" ref="index"/>
     <file name="screenshot3.jpg" crc="334669760" seo="true" ref="index"/>
     <file name="loading.gif" crc="3815509949" ref="index"/>
-    <file name="u1496-10.png" crc="4066384796" ref="index"/>
     <file name="u1499-4.png" crc="149610762" ref="index"/>
-    <file name="u1514-5.png" crc="409864692" ref="index"/>
     <file name="available on exchange.jpg" crc="71655006" seo="true" ref="index"/>
   </folder>
-  <file name="index.html" crc="4015800384" seo="true" mt="1480236940004" redirect="true"/>
+  <file name="index.html" crc="269799397" seo="true" mt="1480237311661" redirect="true"/>
 </manifest>
